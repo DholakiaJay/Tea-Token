@@ -10,7 +10,6 @@ body {
 }
 .container {
   position: relative;
-
   height: 100%;
   width: 100%;
 }
@@ -108,7 +107,7 @@ body {
 }
 .milk:hover {
   border: 1px solid #282828;
-  background-image: url("/images/milk.png"),
+  background-image: url("images/milk.png"),
     linear-gradient(to top, wheat, #2828287d);
 }
 .knob .knobpart {
@@ -149,8 +148,8 @@ body {
 
 .water-drop {
   position: absolute;
-  bottom: 39%;
-  left: calc(50% - 21px);
+  bottom: 21%;
+  left: calc(50% - 6px);
   width: 12px;
   height: 27px;
   opacity: 0.6;
@@ -189,8 +188,8 @@ body {
 
 .glass {
   position: absolute;
-  top: 63%;
-  left: 46.8%;
+  top: 90%;
+  left: 39%;
   width: 45px;
   height: 72px;
   border-radius: 1px;
@@ -200,7 +199,6 @@ body {
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
   border: 1px solid rgba(24, 23, 23, 0.726);
-  
 
   clip-path: polygon(
     20% 0%,
@@ -401,8 +399,7 @@ body {
   box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.75),
     inset 0 2px 2px rgba(0, 0, 0, 0.25);
 }
-.drink
-{
+.drink {
   font-size: 12px;
   text-align: center;
   display: flex;
@@ -411,4 +408,8 @@ body {
   font-weight: 100;
   color: transparent;
   margin-top: -54%;
+}
+#stopbtn
+{
+  display: none;
 }
