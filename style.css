@@ -94,7 +94,7 @@ body {
     linear-gradient(to top, wheat, #2828287d);
 }
 .milk {
-  background-image: url("/images/milk.png");
+  background-image: url("images/milk.png");
   height: 36px;
   width: 36px;
   background-repeat: no-repeat;
